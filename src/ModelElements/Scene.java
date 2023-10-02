@@ -30,10 +30,4 @@ public class Scene {
     public <T, E> T method2(T flash, E camera) {
         return flash;
     }
-    // public Type method1 (Type t) {
-    // return t;
-    // }
-    // public Type1 method1(Type1 t1, Type2 t2) {
-    // return t1;
-    // }
 }
