@@ -1,5 +1,5 @@
 package InMemoryModel;
 
-public class IModelChangedObserver {
-    
+public interface IModelChangedObserver {
+    public void ApplyUpdateModel();
 }
