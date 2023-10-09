@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Hello world!");
     }
 
-    public static void mainOcp(){
+    public static void mainOcp() {
         Vehicle car = new Car(123);
         car.calculateAllowedSpeed();
         Vehicle bus = new Bus(60);

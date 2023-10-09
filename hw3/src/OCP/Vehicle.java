@@ -4,7 +4,6 @@ public class Vehicle {
     private int maxSpeed;
     private String type;
 
-
     public int getMaxSpeed() {
         return maxSpeed;
     }
@@ -17,8 +16,8 @@ public class Vehicle {
         this.maxSpeed = maxSpeed;
         this.type = type;
     }
-    public double calculateAllowedSpeed(){
+
+    public double calculateAllowedSpeed() {
         return maxSpeed;
     }
 }
-

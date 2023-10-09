@@ -1,6 +1,6 @@
 package LSP;
 
-public class Rectangle extends QuadRangle{
+public class Rectangle extends QuadRangle {
     private int width;
     private int height;
 

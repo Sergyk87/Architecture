@@ -1,11 +1,11 @@
 package LSP;
 
-public class Square extends QuadRangle{
+public class Square extends QuadRangle {
     private int length;
 
     @Override
     public int area() {
-        return length*length;
+        return length * length;
     }
 
     public int getLength() {

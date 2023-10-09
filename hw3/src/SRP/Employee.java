@@ -14,8 +14,6 @@ public class Employee {
         this.post = post;
     }
 
-
-
     @Override
     public String toString() {
         return "Employee{" +

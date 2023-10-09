@@ -8,6 +8,6 @@ public class EmployeeSalaryCalculate {
     }
 
     public int salaryCalculate() {
-        return (int)(baseSalry * 1.25);
+        return (int) (baseSalry * 1.25);
     }
 }
