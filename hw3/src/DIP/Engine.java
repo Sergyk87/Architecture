@@ -1,5 +1,5 @@
 package DIP;
 
-public interface iEngine {
+public interface Engine {
     public void start();
 }

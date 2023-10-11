@@ -1,13 +1,19 @@
 package DIP;
 
 public class Car {
-    iEngine engine;
+    private Engine engine;
 
-    public Car(iEngine engine) {
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public Car(Engine engine) {
         this.engine = engine;
     }
 
-    public void startEngine() {
-        engine.start();
+    public void start() {
+        this.engine.start();
     }
+
+
 }

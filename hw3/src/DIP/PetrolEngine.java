@@ -1,6 +1,6 @@
 package DIP;
 
-public class BenzinEngine implements iEngine {
+public class PetrolEngine implements Engine {
     @Override
     public void start() {
         System.out.println("Запущен бензиновый двигатель");
